@@ -1,0 +1,45 @@
+body{
+    background-image: url(../../assets/who_i_am.jpg), linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.About{
+    padding-bottom: 0 !important;
+}
+
+.about-container{
+    grid-template-columns: 52% auto;
+    margin-left: 10%;
+}
+
+.about-left p{
+    margin-top: 1rem;
+    margin-right: 150px;
+    font-weight: 600;
+}
+
+.uminho{
+    text-decoration: underline;
+    color: var(--color-dark);
+}
+
+/*.................Max-width:1024px...............*/
+@media (max-width:1024px) {
+    .about-container{
+        margin-left: 5%;
+        text-align: center;
+    }
+    .about-left p{
+        margin: 1rem 0 0 0;
+    }
+}
+
+/*.................Max-width:600px...............*/
+@media (max-width:600px) {
+    .about-right{
+        gap: 1rem;
+    }
+}
