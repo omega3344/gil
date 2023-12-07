@@ -17,13 +17,15 @@ export default function Services() {
 
         <div className="container services-container">
             {
-                services.map(({id, icon, des1, des2, des3})=>{
+                services.map(({id, icon, des1, des2, des3, des4, des5})=>{
                     return(
                         <Card key={id} classname={'services-card'}>
                             <span><FontAwesomeIcon icon={icon} /></span>
                             <h3>{des1}</h3>
                             <h3>{des2}</h3>
                             <h3>{des3}</h3>
+                            <h3>{des4}</h3>
+                            <h3>{des5}</h3>
                         </Card>
                     )
                 })

@@ -32,7 +32,6 @@ export default function About() {
         </div>
       </div>
     </section>
-    <Tools />
     <Services />
     <Others />
     </>

@@ -10,6 +10,7 @@ export default defineConfig(({ mode }) => {
       'process.env.VITE_YOUR_TEMPLATE_ID': JSON.stringify(env.VITE_YOUR_TEMPLATE_ID),
       'process.env.VITE_YOUR_PUBLIC_KEY': JSON.stringify(env.VITE_YOUR_PUBLIC_KEY)
     },
+    base: "/gil",
     plugins: [react()],
   }
 })

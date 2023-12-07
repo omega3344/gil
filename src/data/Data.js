@@ -64,28 +64,43 @@ export const tools = [
 ];
 
 
-import {faGraduationCap, faLanguage,faUsers,} from '@fortawesome/free-solid-svg-icons'
+import {faGraduationCap, faLanguage, faCode, faUsers,} from '@fortawesome/free-solid-svg-icons'
 export const services = [
     {
         id: 1,
         icon: faGraduationCap,
         des1:'EQF LEVEL 7:',
         des2:'INFORMATICS',
-        des3:'ENGINEERING'
+        des3:'ENGINEERING',
+        des4:'',
+        des5:''
     },
     {
         id: 2,
         icon: faLanguage,
         des1:'PORTUGUESE',
         des2:'ENGLISH (C1)',
-        des3:'SPANISH (A1)'
+        des3:'SPANISH (A1)',
+        des4:'',
+        des5:'',
     },
     {
         id: 3,
+        icon: faCode,
+        des1:'TEAM-WORK ORIENTED',
+        des2:'GOOD LISTENER',
+        des3:'AND COMUNICATOR ',
+        des4:'RESPONSIBLE AND',
+        des5:'HARD WORKER'
+    },
+    {
+        id: 4,
         icon: faUsers,
         des1:'TEAM-WORK ORIENTED',
-        des2:'GOOD LISTENER AND COMUNICATOR',
-        des3:'RESPONSIBLE AND HARD WORKER'
+        des2:'GOOD LISTENER',
+        des3:'AND COMUNICATOR ',
+        des4:'RESPONSIBLE AND',
+        des5:'HARD WORKER'
     },
 ];
 
