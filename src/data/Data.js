@@ -1,4 +1,3 @@
-
 import {faHome, faEnvelope, faUserGraduate, faLaptopFile} from '@fortawesome/free-solid-svg-icons'
 export const navLinks = [
     {
@@ -26,8 +25,6 @@ export const navLinks = [
         path: '/Contact'
     },
 ];
-
-
 
 
 import image1 from '../../src/assets/scala.png'
@@ -87,11 +84,11 @@ export const services = [
     {
         id: 3,
         icon: faCode,
-        des1:'TEAM-WORK ORIENTED',
-        des2:'GOOD LISTENER',
-        des3:'AND COMUNICATOR ',
-        des4:'RESPONSIBLE AND',
-        des5:'HARD WORKER'
+        des1:'JAVA',
+        des2:'PYTHON',
+        des3:'SCALA',
+        des4:'JAVASCRIPT / TYPESCRIPT',
+        des5:'PHP'
     },
     {
         id: 4,
@@ -103,8 +100,6 @@ export const services = [
         des5:'HARD WORKER'
     },
 ];
-
-
 
 
 import protfoliImg1 from '../../src/assets/p1.jpg'
@@ -142,7 +137,6 @@ export const portfolio = [
     },
 
 ];
-
 
 
 export const others = [
