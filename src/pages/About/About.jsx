@@ -7,7 +7,6 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
 // Components Import...................
 import HeadingText from '../../components/HeadingText/HeadingText'
-import Tools from '../../components/Tools/Tools'
 import Services from '../../components/Services/Services'
 import Others from '../../components/Others/Others'
 
